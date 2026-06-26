@@ -1,6 +1,7 @@
 <script setup>
 import { ArrowRight, Github } from 'lucide-vue-next'
 import HeroBackground from './HeroBackground.vue'
+import WaveDivider from './WaveDivider.vue'
 </script>
 
 <template>
@@ -16,7 +17,7 @@ import HeroBackground from './HeroBackground.vue'
       <div class="absolute inset-0 bg-slate-950/40"></div>
     </div>
 
-    <!-- Floating Minecraft voxel blocks -->
+    <!-- Rising bubbles -->
     <HeroBackground class="opacity-90" />
 
     <!-- Drifting aurora glows -->
@@ -28,7 +29,7 @@ import HeroBackground from './HeroBackground.vue'
         class="absolute -right-20 bottom-0 h-96 w-96 rounded-full bg-cyan-400/20 blur-3xl motion-safe:animate-aurora-slower"
       ></div>
       <div
-        class="absolute left-1/2 top-1/3 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-3xl motion-safe:animate-aurora-slow"
+        class="absolute left-1/2 top-1/3 h-72 w-72 -translate-x-1/2 rounded-full bg-deep-500/20 blur-3xl motion-safe:animate-aurora-slow"
       ></div>
     </div>
 
@@ -54,7 +55,7 @@ import HeroBackground from './HeroBackground.vue'
         <h1 v-reveal:80 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
           <span class="block drop-shadow-[0_2px_20px_rgba(15,23,42,0.6)]">Powerful, Efficient &amp; Extendable</span>
           <span
-            class="block bg-[length:200%_auto] bg-gradient-to-r from-brand-300 via-cyan-300 to-brand-300 bg-clip-text text-transparent motion-safe:animate-shimmer"
+            class="block bg-gradient-to-r from-cyan-200 to-brand-300 bg-clip-text text-transparent"
           >
             Minecraft Bedrock Proxy
           </span>
@@ -67,7 +68,7 @@ import HeroBackground from './HeroBackground.vue'
         <div v-reveal:240 class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href="https://docs.waterdog.dev/books/waterdogpe-setup/page/starting-waterdog"
-            class="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-500 to-indigo-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-brand-500/30 transition-all hover:shadow-xl hover:shadow-brand-500/40 hover:-translate-y-0.5 sm:w-auto"
+            class="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-xl hover:shadow-indigo-500/40 hover:-translate-y-0.5 sm:w-auto"
           >
             Get started
             <ArrowRight class="h-5 w-5 transition-transform group-hover:translate-x-1" />
@@ -85,7 +86,7 @@ import HeroBackground from './HeroBackground.vue'
       </div>
     </div>
 
-    <!-- Fade into the next section -->
-    <div class="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-slate-50 dark:to-slate-900"></div>
+    <!-- Animated water surface flowing into the next section -->
+    <WaveDivider class="absolute inset-x-0 bottom-0 z-10 text-slate-50 dark:text-slate-900" />
   </section>
 </template>

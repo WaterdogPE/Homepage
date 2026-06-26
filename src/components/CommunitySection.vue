@@ -33,7 +33,7 @@ import { MessageCircle } from 'lucide-vue-next'
             href="https://discord.gg/QcRRzXX"
             target="_blank"
             rel="noreferrer"
-            class="group inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-brand-600/30 transition-all hover:-translate-y-0.5 hover:shadow-xl"
+            class="group inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-indigo-600/30 transition-all hover:-translate-y-0.5 hover:shadow-xl"
           >
             <MessageCircle class="h-5 w-5" />
             Join the Community

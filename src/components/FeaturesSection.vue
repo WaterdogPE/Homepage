@@ -28,7 +28,7 @@ import { features } from '../content.js'
             class="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-brand-500/10 blur-2xl transition-opacity duration-300 group-hover:opacity-100 md:opacity-0"
           ></div>
           <div
-            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-indigo-500 text-white shadow-lg shadow-brand-500/30"
+            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-deep-500 text-white shadow-lg shadow-brand-500/30"
           >
             <component :is="feature.icon" class="h-6 w-6" />
           </div>

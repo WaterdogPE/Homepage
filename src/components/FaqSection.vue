@@ -30,7 +30,7 @@ import { faqs } from '../content.js'
           href="https://docs.waterdog.dev"
           target="_blank"
           rel="noreferrer"
-          class="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-brand-500 to-indigo-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-brand-500/30 transition-all hover:-translate-y-0.5 hover:shadow-xl"
+          class="inline-flex items-center justify-center rounded-xl bg-indigo-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:-translate-y-0.5 hover:shadow-xl"
         >
           Documentation
         </a>

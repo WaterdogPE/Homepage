@@ -5,17 +5,27 @@ export default {
   theme: {
     extend: {
       colors: {
+        // "brand" = Waterdog water blue (ocean cyan/azure ramp)
         brand: {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
-          800: '#3730a3',
-          900: '#312e81',
+          50: '#ecfdff',
+          100: '#cef6fd',
+          200: '#a3ecfa',
+          300: '#67ddf4',
+          400: '#28c3e8',
+          500: '#0ba6ce',
+          600: '#0a85ad',
+          700: '#0e6a8c',
+          800: '#155874',
+          900: '#164a63',
+        },
+        // deep-water companion used for gradient ends and depth
+        deep: {
+          400: '#3b82f6',
+          500: '#2563eb',
+          600: '#1d4ed8',
+          700: '#1e40af',
+          800: '#1e3a8a',
+          900: '#172554',
         },
       },
       fontFamily: {
@@ -52,6 +62,10 @@ export default {
           '0%': { transform: 'scale(1) translate(0, 0)' },
           '100%': { transform: 'scale(1.12) translate(-1.5%, -1.5%)' },
         },
+        'wave-x': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
       },
       animation: {
         'fade-up': 'fade-up 0.7s ease-out both',
@@ -60,6 +74,8 @@ export default {
         'aurora-slower': 'aurora 26s ease-in-out infinite',
         shimmer: 'shimmer 6s linear infinite',
         kenburns: 'kenburns 24s ease-out infinite alternate',
+        'wave-slow': 'wave-x 18s linear infinite',
+        'wave-fast': 'wave-x 11s linear infinite',
       },
     },
   },
