@@ -67,7 +67,7 @@ import WaveDivider from './WaveDivider.vue'
 
         <div v-reveal:240 class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://docs.waterdog.dev/books/waterdogpe-setup/page/starting-waterdog"
+            href="https://docs.waterdog.dev/overview"
             class="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-xl hover:shadow-indigo-500/40 hover:-translate-y-0.5 sm:w-auto"
           >
             Get started
